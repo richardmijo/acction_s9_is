@@ -8,6 +8,7 @@ on:
 jobs:
   build-and-push:
     name: Construir y subir imagen
+    runs-on: ubuntu-latest
 
     steps:
       - name: Descargar codigo del repositorio
